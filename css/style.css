@@ -28,10 +28,10 @@ section h2 {
 
 :root {
     --primary-color: #28B463;
-    --secondary-color: #F39C12;
+    --secondary-color: #123568;
     --text-color: #333;
     --bg-color: #f5f5f5;
-    --heading-color: #F39C12;
+    --heading-color: #123568;
 }
 
 .color_primary {
@@ -58,7 +58,14 @@ section a:hover {
     font-weight: 800;
     
 }
-
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 
 
 .button_primary {
@@ -107,6 +114,293 @@ section a:hover {
     border-radius: 100px 100px 0 0;
 }
 
+/*---------------------------------------
+  Categories_wrap Css              
+-----------------------------------------*/
+   .our_award .info-box {
+      background-color: #002147;
+      color: white;
+      padding: 40px 30px;
+    }
+
+   .our_award .info-box h3 {
+      font-weight: 700;
+    }
+
+   .our_award .helpline {
+      color: #FFC107;
+      font-size: 1.75rem;
+      font-weight: bold;
+    }
+
+   .our_award  .image-box img {
+      width: 100%;
+      height: auto;
+    }
+
+   .our_award  .full-height {
+      height: 100%;
+    }
+
+   .our_award  .d-flex-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+
+#about-part {
+    position: relative;
+    padding-bottom: 220px;
+}
+.about-bg {
+    width: 52%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+}
+.about-bg::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1)));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 1) 100%);
+}
+.about-bg img {
+    width: 100%;
+}
+.about-cont p {
+    padding-top: 30px;
+}
+.about-event {
+    -webkit-box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+    padding: 65px 70px 37px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.about-event .event-title h3 {
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 5px;
+}
+.about-event ul li .single-event {
+    padding: 25px 0;
+    border-bottom: 1px solid #cecece;
+}
+.about-event ul li:last-child .single-event {
+    border-bottom: 0;
+}
+.about-event ul li .single-event span {
+    font-size: 14px;
+    color: #8a8a8a;
+    margin-right: 20px;
+}
+.about-event ul li .single-event span i {
+    color: var(--primary-color);
+    margin-right: 3px;
+}
+.about-event ul li .single-event a {
+    display: block;
+}
+.about-event ul li .single-event a h4 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 24px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.about-event ul li .single-event a:hover h4 {
+    color: var(--primary-color);
+}
+.about_section {
+    justify-content: left;
+    align-items: center;
+    display: flex
+;
+}
+
+
+
+  .our_courses  .section-title {
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+
+    .our_courses   .section-title h6 {
+      color: #1a1a1a;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      position: relative;
+      display: inline-block;
+    }
+
+    .our_courses   .section-title h6::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 30px;
+      height: 3px;
+      background-color: #f9b700;
+    }
+
+     .our_courses  .section-title h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .our_courses   .course-card {
+      background: white;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+     .our_courses  .course-card:hover {
+      transform: translateY(-5px);
+    }
+
+     .our_courses  .course-img {
+      position: relative;
+    }
+
+     .our_courses  .free-badge {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: #ffc107;
+      color: black;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 50%;
+      font-size: 0.9rem;
+    }
+
+     .our_courses  .author-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.6);
+      color: white;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+     .our_courses  .author-info img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+      .our_courses .author-details {
+      display: flex;
+      align-items: center;
+    }
+
+    .our_courses   .stars {
+      color: #ffc107;
+      font-size: 0.85rem;
+    }
+
+    .our_courses   .course-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      padding: 1rem 1rem 1.5rem;
+      margin: 0;
+    }
+
+
+
+   .teacher_section .section-title h6::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 30px;
+      height: 3px;
+      background-color: #f9b700;
+    }
+
+
+   .teacher_section .teacher-card {
+      position: relative;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.08);
+      transition: 0.3s ease-in-out;
+    }
+
+  .teacher_section .teacher-card:hover {
+      transform: translateY(-5px);
+    }
+
+  .teacher_section .teacher-card img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 20px 20px 0 0;
+    }
+
+  .teacher_section .teacher-info {
+      padding: 20px 15px 40px;
+    }
+
+  .teacher_section .teacher-info h5 {
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+  .teacher_section .teacher-info span {
+      color: #007bff;
+      font-size: 0.95rem;
+    }
+
+    .plus-btn {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      background-color: #f9b700;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      color: #fff;
+      font-size: 1.5rem;
+      line-height: 38px;
+      text-align: center;
+      font-weight: bold;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+
+
+
+
+.section-title h5::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 0;
+}.section-title h5 {
+    color: #07294d;
+    position: relative;
+    padding-bottom: 12px;
+}
 
 .section_counter span {
     color: #333;
@@ -397,7 +691,7 @@ section a:hover {
 }
 
 .footer a:hover {
-    color: #f39c12;
+    color: #123568;
 }
 
 .footer .list-unstyled li {

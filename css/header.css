@@ -29,6 +29,7 @@ header {
 }
 .header-fixed .site-nav{
     box-shadow: 0 8px 6px -6px rgba(254, 200, 120, 0.2);
+    top: 0;
 } 
 
 
@@ -42,6 +43,71 @@ header {
     margin-bottom: 0;
     list-style: none;
 }
+
+
+
+
+.main-header .top-bar {
+  overflow: hidden;
+  background: #123568;
+  line-height: 48px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.main-header .top-bar i {
+  color: #FFFFFF;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.main-header .top-bar a {
+  color: #FFFFFF;
+}
+
+.main-header ul.top-bar-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-header .top-bar i {
+  color: #FFFFFF;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.main-header .top-bar a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-header ul.top-bar-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-header ul.top-bar-info .top-bar-dot {
+  width: 6px;
+  height: 6px;
+  background: #c97f5f;
+  display: inline-block;
+  margin-right: 12px;
+  position: relative;
+  top: -1px;
+}
+
+.main-header ul.top-bar-info li {
+  margin-right: 6px;
+  display: inline;
+}
+
+.main-header ul.top-bar-info li:last-child {
+  margin-right: 0px;
+}
+
+.main-header .
 
 .nav-link {
     display: block;
@@ -876,16 +942,16 @@ header {
 
 :root {
     --primary-color: #28B463;
-    --secondary-color: #F39C12;
+    --secondary-color: #123568;
     --text-color: #333;
     --bg-color: #f5f5f5;
-    --heading-color: #F39C12;
+    --heading-color: #123568;
 }
 .site-nav {
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
-    top: 0;
+    top: unset;
     z-index: 9;
     width: 100%;
     background-color: #fff;

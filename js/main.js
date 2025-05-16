@@ -63,6 +63,21 @@ $(window).scroll(function() {
 
 
 
+
+  // Mouse parallax effect
+  document.addEventListener('mousemove', e => {
+    const circles = document.querySelectorAll('.circle');
+    const x = e.clientX / window.innerWidth - 0.5;
+    const y = e.clientY / window.innerHeight - 0.5;
+
+    circles.forEach((circle, index) => {
+      const speed = (index + 1) * 5;
+      circle.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
+    });
+  });
+
+
+
 $(document).ready(function() {
     $(".down").click(function() {
         $("html, body").animate({
