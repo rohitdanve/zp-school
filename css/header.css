@@ -1,9 +1,3 @@
-header {
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-
-}
 
 .animateHeader{
     animation: sdb05 1.8s;
@@ -25,11 +19,12 @@ header {
     width: 100%;
     box-shadow: 0 8px 6px -6px rgb(0 0 0 / 20%);
     z-index: 999;
-    background: #fff;
+    background-color: #fff;
 }
 .header-fixed .site-nav{
     box-shadow: 0 8px 6px -6px rgba(254, 200, 120, 0.2);
     top: 0;
+       background-color: #fff;
 } 
 
 
@@ -49,7 +44,7 @@ header {
 
 .main-header .top-bar {
   overflow: hidden;
-  background: #123568;
+  background:#000;
   line-height: 48px;
   color: #FFFFFF;
   font-size: 16px;
@@ -953,8 +948,7 @@ header {
     position: absolute;
     top: unset;
     z-index: 9;
-    width: 100%;
-    background-color: #fff;
+    width: 100%; 
 }
 
 .site-nav h1,
